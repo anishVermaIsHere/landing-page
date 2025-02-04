@@ -1,0 +1,9 @@
+@import "./global.css";
+
+body {
+    font-family: "Inter", serif;
+}
+
+header {
+    font-family: "Poppins", serif;
+}

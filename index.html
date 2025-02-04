@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-[var(--dark)] flex items-center w-full">
+      <nav
+        class="flex justify-between items-center gap-4 md:gap-8 px-2 md:px-6 h-[92px] w-full"
+      >
+        <a class="flex-shrink-0" href="#"
+          ><img src="./assets/logo.png" alt="brand logo" class="w-[100px] md:w-[200px]"
+        /></a>
+
+        <div class="hidden lg:flex justify-center items-center">
+          <ul class="flex items-center gap-8 text-white text-base">
+            <li class="flex items-center">Company</li>
+            <li class="flex items-center">Generator</li>
+            <li class="flex items-center">Agrregator</li>
+            <li class="flex items-center">Recycler</li>
+            <li class="flex items-center">Sell Items</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-shrink-0 justify-center items-center border-2 border-white rounded-[20px] overflow-hidden"
+        >
+          <div class="bg-white text-[var(--dark)] rounded-r-[20px] py-2 px-5">
+            <a href="#" class="p-2.5">Login</a>
+          </div>
+          <div class="bg-[var(--dark)] text-white py-2 px-2">
+            <a href="#" class="p-2.5">Signup</a>
+          </div>
+        </div>
+      </nav>
+      <div class="block lg:hidden relative px-6">
+        <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 6H20M4 12H20M4 18H20" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </header>
+    <main class="max-w-screen-2xl mx-auto">
+      <div class="relative">
+        <section class="px-6">
+          <div class="flex flex-col md:flex-row items-center justify-between">
+            <div class="flex flex-col w-full md:w-1/2 lg:w-[40%] pt-10">
+              <h1 class="text-50 font-bold text-[var(--dark)] font-lato mb-4">
+                Eco-Friendly Waste Management Solutions
+              </h1>
+
+              <p class="text-28 text-[var(--gray-primary)] font-dm font-bold">
+                Efficient, cost-effective, and sustainable waste management
+                services for your business.
+              </p>
+
+              <div class="mt-[70px]">
+                <a
+                  href="#"
+                  class="bg-[var(--dark)] text-2xl leading-[50px] text-white rounded-[20px] px-20 py-4"
+                  >Explore</a
+                >
+              </div>
+            </div>
+
+            <div class="w-full md:w-1/2 lg:w-[60%] pt-10">
+              <img
+                src="./assets/images/hero-1.png"
+                alt="Eco-Friendly Waste Management Solutions"
+                class=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row items-center justify-between gap-4"
+          >
+            <div class="w-full md:w-1/2 lg:w-[40%] pt-10">
+              <img
+                src="./assets/images/hero-2.png"
+                alt="Eco-Friendly Waste Management Solutions"
+                class=""
+              />
+            </div>
+            <div
+              class="flex flex-col w-full md:w-1/2 lg:w-[60%] pt-10 md:pe-16"
+            >
+              <h2 class="text-45 font-bold text-[var(--dark)] font-lato mb-4">
+                Let’s Change The World !!
+              </h2>
+
+              <p
+                class="text-2xl text-[var(--gray-primary)] font-bold font-poppins leading-[40px] mb-4"
+              >
+                Our platform facilitates seamless communication and
+                collaboration between buyers and sellers by centralizing and
+                digitizing the entire scrap trading process which results in a
+                more transparent and efficient waste management ecosystem.
+              </p>
+
+              <p
+                class="text-2xl text-[var(--gray-primary)] font-bold font-poppins leading-[40px] mb-4"
+              >
+                Our waste management application is a game-changer for recyclers
+                and waste segregators looking to streamline their operations,
+                improve their bottom line, and contribute to a more sustainable
+                future.
+              </p>
+
+              <p
+                class="text-2xl text-[var(--gray-dark)] text-center font-bold font-poppins leading-[50px] mb-2"
+              >
+                “Join us in revolutionizing the way we manage and recycle waste
+                for a cleaner and greener planet”
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="px-0 mt-16">
+          <div
+            class="flex flex-col md:flex-row items-center justify-between gap-4"
+          >
+            <div class="w-full md:w-1/2 lg:w-[30%] pt-10">
+              <img
+                src="./assets/images/illustrations/Illustration1.png"
+                alt="Eco-Friendly Waste Management Solutions"
+                class=""
+              />
+            </div>
+            <div
+              class="flex flex-col w-full md:w-1/2 lg:w-[70%] pt-10 px-6 lg:ps-20"
+            >
+              <h2 class="text-45 font-bold text-[var(--dark)] font-lato mb-4">
+                Mission
+              </h2>
+              <p
+                class="text-2xl text-[var(--gray-primary)] font-bold font-poppins leading-[40px] mb-4"
+              >
+                To revolutionize the waste management industry by providing
+                innovative software solutions that empower waste segregators and
+                recyclers to efficiently buy and sell scrap, leading to a
+                cleaner and more sustainable environment.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row items-center justify-between gap-4"
+          >
+            <div
+              class="flex flex-col order-1 md:items-end w-full md:1/2 lg:w-[70%] pt-10 px-6 lg:pe-20"
+            >
+              <h2 class="text-45 font-bold text-[var(--dark)] font-lato mb-4">
+                Vision
+              </h2>
+              <p
+                class="text-2xl text-[var(--gray-primary)] md:text-right font-bold font-poppins leading-[40px] mb-4"
+              >
+                To create a world where waste is no longer seen as a problem,
+                but as a valuable resource that can be easily exchanged and
+                repurposed through our cutting-edge software platform. We
+                envision a future where recycling and waste management are
+                seamless processes, contributing to a circular economy and
+                reducing the impact of waste on our planet.
+              </p>
+            </div>
+            <div class="w-full order-1 md:1/2 lg:w-[30%] pt-10">
+              <img
+                src="./assets/images/illustrations/Illustration2.png"
+                alt="Eco-Friendly Waste Management Solutions"
+                class=""
+              />
+            </div>
+          </div>
+
+          <div class="px-4 lg:px-12 mt-40">
+            <div class="text-inherit text-center text-[35px] font-bold font-dm">
+              Enhance your value, broaden your network, and grow your recycling
+              business
+            </div>
+            <div class="h-[2px] bg-[var(--dark)] my-[20px] mx-auto"></div>
+
+            <div class="text-28 font-bold text-center md:text-right mb-10">
+              One-stop solution for all types of recyclable -
+              <span class="text-[#473BF0]">“Nothing go wasted”</span>
+            </div>
+
+            <div class="flex justify-end items-center text-center mb-10">
+              <div class="flex items-center text-center w-full md:w-1/2">
+                <a
+                  href="#"
+                  class="w-full bg-[var(--dark)] text-white translate-x-[20px] border-2 border-[var(--dark)] rounded-[20px] py-3 px-2"
+                >
+                  Buy
+                </a>
+                <a
+                  href="#"
+                  class="w-full bg-white text-[var(--dark)] border-r-2 border-y-2 border-[var(--dark)] rounded-r-[20px] py-3 px-5"
+                >
+                  Sell
+                </a>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-8 gap-4">
+              <div
+                class="col-span-4 text-4xl leading-[60px] text-[var(--gray-primary)]"
+              >
+                Creating a sustainable waste management supply chain while using
+                the state-of-the-art technology for an efficient future
+              </div>
+
+              <div class="col-span-4">
+                <div class="grid place-items-center grid-cols-4 h-full gap-4">
+                  <div class="flex flex-col items-center w-full">
+                    <div
+                      class="w-full h-[180px] bg-white rounded-lg shadow-xl mb-4"
+                    ></div>
+                    <div class="text-lg font-bold">Aluminium</div>
+                  </div>
+                  <div class="flex flex-col items-center w-full">
+                    <div
+                      class="w-full h-[180px] bg-white rounded-lg shadow-xl mb-4"
+                    ></div>
+                    <div class="text-lg font-bold">Plastic</div>
+                  </div>
+                  <div class="flex flex-col items-center w-full">
+                    <div
+                      class="w-full h-[180px] bg-white rounded-lg shadow-xl mb-4"
+                    ></div>
+                    <div class="text-lg font-bold">E-waste</div>
+                  </div>
+                  <div class="flex flex-col items-center w-full">
+                    <div
+                      class="w-full h-[180px] bg-white rounded-lg shadow-xl mb-4"
+                    ></div>
+                    <div class="text-lg font-bold">Textile</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-40">
+          <div class="py-14 bg-[var(--dark)] text-center">
+            <h2 class="font-bold text-50 text-white font-lato">Key Features</h2>
+            <h4 class="text-28 leading-[50px] text-[#f0f0f0] font-popins">
+              "Unlocking Potential with Every Feature!"
+            </h4>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 px-10 mt-10">
+            <div class="flex flex-col sm:flex-row justify-between items-center md: items-start gap-3 p-3 bg-white shadow-lg shadow-[var(--gray-primary)] rounded-[20px]">
+              <div class="h-[100px] relative">
+                <img src="./assets/icons/search-file 1.svg" alt="" class="block mx-auto aspect-[3/1] w-full h-full grayscale rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Automated Matching</p>
+                <p class="text-xl text-gray-500">
+                  Our algorithms automatically match buyers and sellers based on their preferences, requirements, and price points.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md: items-start gap-3 p-3 bg-white shadow-lg shadow-[var(--gray-primary)] rounded-[20px]">
+              <div class="h-[100px] relative">
+                <img src="./assets/icons/trading 1.svg" alt="" class="block mx-auto aspect-[3/1] w-full h-full grayscale rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Automated Matching</p>
+                <p class="text-xl text-gray-500">
+                  Our algorithms automatically match buyers and sellers based on their preferences, requirements, and price points.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md: items-start gap-3 p-3 bg-white shadow-lg shadow-[var(--gray-primary)] rounded-[20px]">
+              <div class="h-[100px] relative">
+                <img src="./assets/icons/gadget 1.svg" alt="" class="block mx-auto aspect-[3/1] w-full h-full grayscale rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Automated Matching</p>
+                <p class="text-xl text-gray-500">
+                  Our algorithms automatically match buyers and sellers based on their preferences, requirements, and price points.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md: items-start gap-3 p-3 bg-white shadow-lg shadow-[var(--gray-primary)] rounded-[20px]">
+              <div class="h-[100px] relative">
+                <img src="./assets/icons/reorder 1.svg" alt="" class="block mx-auto aspect-[3/1] w-full h-full grayscale rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Automated Matching</p>
+                <p class="text-xl text-gray-500">
+                  Our algorithms automatically match buyers and sellers based on their preferences, requirements, and price points.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md: items-start gap-3 p-3 bg-white shadow-lg shadow-[var(--gray-primary)] rounded-[20px]">
+              <div class="h-[100px] relative">
+                <img src="./assets/icons/crane 1.svg" alt="" class="block mx-auto aspect-[3/1] w-full h-full grayscale rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Automated Matching</p>
+                <p class="text-xl text-gray-500">
+                  Our algorithms automatically match buyers and sellers based on their preferences, requirements, and price points.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-60 px-6 lg:px-20">
+            <div class="flex flex-col items-center justify-center">
+              <div class="text-[48px] font-bold font-lato mb-10">
+                How It Works?
+              </div>
+              <div class="relative flex flex-col md:flex-row justify-between items-start">
+                <div class="absolute hidden md:block top-5 left-[16.67%] right-[16.67%] h-1 bg-[var(--dark)]">
+                  <div class="absolute -top-3.5 left-0 size-8 rounded-full bg-[var(--dark)]"></div>
+                  <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 size-8 rounded-full bg-[var(--dark)]"></div>
+                  <div class="absolute -top-3.5 right-0 size-8 rounded-full bg-[var(--dark)]"></div>
+                </div>
+
+                <!-- <div class="absolute block md:hidden left-4 top-[2.5rem] bottom-0 w-0.5 bg-[var(--dark)]">
+                  <div class="absolute -top-3.5 bottom-0 size-8 rounded-full bg-[var(--dark)]"></div>
+                  <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 size-8 rounded-full bg-[var(--dark)]"></div>
+                  <div class="absolute -top-3.5 right-0 size-8 rounded-full bg-[var(--dark)]"></div>
+                </div> -->
+      
+                <div class="w-full md:w-1/3 pl-8 md:pl-4 md:pr-4 relative mb-12 md:mb-0 mt-14">
+                  <div class="flex flex-col lg:flex-row gap-4">
+                    <div class="mt-4 h-[50px] relative">
+                      <img src="./assets/icons/a-sync.svg" alt="" class="aspect-[3/1] md:block w-full h-full grayscale rounded-lg">
+                    </div>
+                    <div class="">
+                      <h3 class="text-[32px] text-center md:text-left font-poppins font-semibold mb-2">
+                        Aggregation
+                      </h3>
+                      <p class="text-[var(--gray-primary)] text-xl">
+                        Collecting data and bids from our network of scrap dealers to provide best pricing and material quality
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <div class="w-full md:w-1/3 pl-8 md:pl-4 md:pr-4 relative mb-12 md:mb-0 mt-14">
+                  <div class="flex flex-col lg:flex-row gap-4">
+                    <div class="mt-4 h-[50px] relative">
+                      <img src="./assets/icons/ic_layers_48px.svg" alt="" class="aspect-[3/1] md:block w-full h-full grayscale rounded-lg">
+                    </div>
+                    <div class="">
+                      <h3 class="text-[32px] text-center md:text-left font-poppins font-semibold mb-2">
+                        Procurement
+                      </h3>
+                      <p class="text-[var(--gray-primary)] text-xl">
+                        Strategic sourcing from multiple scrap dealers locations to the logistics team and facilitate a smooth transaction
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <div class="w-full md:w-1/3 pl-8 md:pl-4 md:pr-4 relative mb-12 md:mb-0 mt-14">
+                  <div class="flex flex-col lg:flex-row gap-4">
+                    <div class="mt-4 h-[50px] relative">
+                      <img src="./assets/icons/chart-bar-33.svg" alt="" class="aspect-[3/1] md:block w-full h-full grayscale rounded-lg">
+                    </div>
+                    <div class="">
+                      <h3 class="text-[32px] text-center md:text-left font-poppins font-semibold mb-2">
+                        Delivery
+                      </h3>
+                      <p class="text-[var(--gray-primary)] text-xl">
+                        Route optimization and nearest delivery algorithm plans an efficient pick-up and drop-off schedules
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- <div class="relative bg-[var(--dark)] h-1 w-full">
+                <div class="size-8 bg-[var(--dark)] rounded-full"></div>
+                <div class="size-8 bg-[var(--dark)] rounded-full"></div>
+                <div class="size-8 bg-[var(--dark)] rounded-full"></div>
+              </div> -->
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-60">
+          <div class="py-14 px-6 lg:px-20 bg-[var(--dark)]">
+            <h2 class="font-bold text-50 text-white font-lato">Why to Choose us?</h2>
+            <h4 class="text-28 leading-[50px] text-[#f0f0f0] font-popins">
+              Choosing our waste management services can be advantageous for both aggregators and recyclers
+            </h4>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 px-10 mt-10">
+            <div class="flex flex-col sm:flex-row justify-between items-center md:items-start gap-3 p-3 bg-white">
+              <div class="h-[100px] relative flex-shrink-0">
+                <img src="./assets/icons/solutions/cheked-svgrepo-com.svg" alt="" class="w-full h-full rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Specialized Solutions</p>
+                <p class="text-xl text-gray-500">
+                  Our application is specifically designed to cater to the unique needs of scrap segregators and scrap recyclers, ensuring that the platform is tailored to the intricacies of the scrap industry.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md:items-start gap-3 p-3 bg-white">
+              <div class="h-[100px] relative flex-shrink-0">
+                <img src="./assets/icons/solutions/transaction-record-svgrepo-com 1.svg" alt="" class="w-full h-full rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Efficient Transactions</p>
+                <p class="text-xl text-gray-500">
+                  Our software streamlines the buying and selling process for scrap materials, making transactions more efficient, transparent, and seamless for both segregators and recyclers.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md:items-start gap-3 p-3 bg-white">
+              <div class="h-[100px] relative flex-shrink-0">
+                <img src="./assets/icons/solutions/price-tag-price-svgrepo-com 1.svg" alt="" class="w-full h-full rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Real-Time Pricing</p>
+                <p class="text-xl text-gray-500">
+                  Our software provides real-time pricing information for various types of scrap materials, empowering segregators and recyclers to make informed decisions and negotiate fair prices.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md:items-start gap-3 p-3 bg-white">
+              <div class="h-[100px] relative flex-shrink-0">
+                <img src="./assets/icons/solutions/growth-income-investment-svgrepo-com.svg" alt="" class="w-full h-full rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Scalability</p>
+                <p class="text-xl text-gray-500">
+                  Our platform is scalable, accommodating the growing needs of segregators and recyclers as their businesses expand, without compromising on performance or efficiency.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center md: items-start gap-3 p-3 bg-white">
+              <div class="h-[100px] relative flex-shrink-0">
+                <img src="./assets/icons/solutions/general-hierachy-map-svgrepo-com 1.svg" alt="" class="w-full h-full rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">Efficient Routing</p>
+                <p class="text-xl text-gray-500">
+                  Our advanced routing system enables the optimization of collection routes, minimizing travel distances and fuel consumption.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-between items-center md: items-start gap-3 p-3 bg-white">
+              <div class="h-[100px] relative flex-shrink-0">
+                <img src="./assets/icons/solutions/interface-control-svgrepo-com 1.svg" alt="" class="w-full h-full rounded-lg">
+              </div>
+              <div class="">
+                <p class="text-2xl font-bold">User-Friendly Interface</p>
+                <p class="text-xl text-gray-500">
+                  Our intuitive design makes it easier for users to operate the software, reducing the learning curve and training costs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-60 px-6 lg:px-20">
+              <div class="text-[48px] text-center md:text-right font-bold font-lato mb-10">
+                “ What Our Client Say ”
+              </div>
+              <div class="flex justify-center items-center p-4">
+                <div class="w-full relative">
+                  <div class="flex overflow-hidden gap-4 md:gap-8">
+                    <div class="w-full min-w-[300px]">
+                      <div class="bg-[var(--dark)] rounded-[30px] p-8 md:p-12 shadow-xl relative">
+                        <div class="a text-white/20">
+                          <svg width="49" height="41" viewBox="0 0 49 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.4 0.699994C20.9 2.19999 21.15 3.44999 21.15 4.45C21.15 5.35 21 6.55 20.7 8.05C14 8.05 10.65 11.5 10.65 18.4C10.65 20.9 11.95 22.3 14.55 22.6C18.35 22.9 20.25 25.35 20.25 29.95C20.25 33.45 19.4 36.15 17.7 38.05C16.1 39.85 13.15 40.75 8.85 40.75C2.95 40.75 3.57628e-07 36.75 3.57628e-07 28.75C3.57628e-07 20.75 1.6 14.1 4.8 8.8C8 3.39999 13.2 0.699994 20.4 0.699994ZM47.55 0.699994C48.05 2.19999 48.3 3.44999 48.3 4.45C48.3 5.35 48.15 6.55 47.85 8.05C41.15 8.05 37.8 11.5 37.8 18.4C37.8 20.9 39.1 22.3 41.7 22.6C45.5 22.9 47.4 25.35 47.4 29.95C47.4 33.45 46.55 36.15 44.85 38.05C43.25 39.85 40.3 40.75 36 40.75C30.1 40.75 27.15 36.75 27.15 28.75C27.15 20.75 28.75 14.1 31.95 8.8C35.15 3.39999 40.35 0.699994 47.55 0.699994Z" fill="white"/>
+                            </svg>
+                        </div>
+                        
+                        <div class="relative pt-8">
+                          <h2 class="text-3xl font-bold text-white mb-4">
+                            Awesome tool!
+                          </h2>
+                          <p class="text-gray-300 mb-8">
+                            Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisi.
+                          </p>
+                          
+                          <div class="flex gap-1 mb-8">
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                          </div>
+          
+                          <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white rounded-full"></div>
+                            <div>
+                              <h4 class="text-white font-semibold">
+                                Pawan Mishra
+                              </h4>
+                              <p class="text-gray-400 text-sm">
+                                Founder of Borcelle
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full min-w-[300px]">
+                      <div class="bg-[var(--dark)] rounded-[30px] p-8 md:p-12 shadow-xl relative">
+                        <div class="a text-white/20">
+                          <svg width="49" height="41" viewBox="0 0 49 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.4 0.699994C20.9 2.19999 21.15 3.44999 21.15 4.45C21.15 5.35 21 6.55 20.7 8.05C14 8.05 10.65 11.5 10.65 18.4C10.65 20.9 11.95 22.3 14.55 22.6C18.35 22.9 20.25 25.35 20.25 29.95C20.25 33.45 19.4 36.15 17.7 38.05C16.1 39.85 13.15 40.75 8.85 40.75C2.95 40.75 3.57628e-07 36.75 3.57628e-07 28.75C3.57628e-07 20.75 1.6 14.1 4.8 8.8C8 3.39999 13.2 0.699994 20.4 0.699994ZM47.55 0.699994C48.05 2.19999 48.3 3.44999 48.3 4.45C48.3 5.35 48.15 6.55 47.85 8.05C41.15 8.05 37.8 11.5 37.8 18.4C37.8 20.9 39.1 22.3 41.7 22.6C45.5 22.9 47.4 25.35 47.4 29.95C47.4 33.45 46.55 36.15 44.85 38.05C43.25 39.85 40.3 40.75 36 40.75C30.1 40.75 27.15 36.75 27.15 28.75C27.15 20.75 28.75 14.1 31.95 8.8C35.15 3.39999 40.35 0.699994 47.55 0.699994Z" fill="white"/>
+                            </svg>
+                        </div>
+                        
+                        <div class="relative pt-8">
+                          <h2 class="text-3xl font-bold text-white mb-4">
+                            Awesome tool!
+                          </h2>
+                          <p class="text-gray-300 mb-8">
+                            Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisi.
+                          </p>
+                          
+                          <div class="flex gap-1 mb-8">
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                          </div>
+          
+                          <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white rounded-full"></div>
+                            <div>
+                              <h4 class="text-white font-semibold">
+                                Pawan Mishra
+                              </h4>
+                              <p class="text-gray-400 text-sm">
+                                Founder of Borcelle
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full min-w-[300px]">
+                      <div class="bg-[var(--dark)] rounded-[30px] p-8 md:p-12 shadow-xl relative">
+                        <div class="a text-white/20">
+                          <svg width="49" height="41" viewBox="0 0 49 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.4 0.699994C20.9 2.19999 21.15 3.44999 21.15 4.45C21.15 5.35 21 6.55 20.7 8.05C14 8.05 10.65 11.5 10.65 18.4C10.65 20.9 11.95 22.3 14.55 22.6C18.35 22.9 20.25 25.35 20.25 29.95C20.25 33.45 19.4 36.15 17.7 38.05C16.1 39.85 13.15 40.75 8.85 40.75C2.95 40.75 3.57628e-07 36.75 3.57628e-07 28.75C3.57628e-07 20.75 1.6 14.1 4.8 8.8C8 3.39999 13.2 0.699994 20.4 0.699994ZM47.55 0.699994C48.05 2.19999 48.3 3.44999 48.3 4.45C48.3 5.35 48.15 6.55 47.85 8.05C41.15 8.05 37.8 11.5 37.8 18.4C37.8 20.9 39.1 22.3 41.7 22.6C45.5 22.9 47.4 25.35 47.4 29.95C47.4 33.45 46.55 36.15 44.85 38.05C43.25 39.85 40.3 40.75 36 40.75C30.1 40.75 27.15 36.75 27.15 28.75C27.15 20.75 28.75 14.1 31.95 8.8C35.15 3.39999 40.35 0.699994 47.55 0.699994Z" fill="white"/>
+                            </svg>
+                        </div>
+                        
+                        <div class="relative pt-8">
+                          <h2 class="text-3xl font-bold text-white mb-4">
+                            Awesome tool!
+                          </h2>
+                          <p class="text-gray-300 mb-8">
+                            Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisi.
+                          </p>
+                          
+                          <div class="flex gap-1 mb-8">
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                          </div>
+          
+                          <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white rounded-full"></div>
+                            <div>
+                              <h4 class="text-white font-semibold">
+                                Pawan Mishra
+                              </h4>
+                              <p class="text-gray-400 text-sm">
+                                Founder of Borcelle
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                            
+                  <button class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 transition-colors">
+                    <svg width="50" height="50" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M63.7055 23.7796C62.0784 22.1525 59.4401 22.1525 57.813 23.7796L37.4486 44.1637C34.197 47.4187 34.1983 52.6929 37.4515 55.9462L57.828 76.3226C59.4551 77.9498 62.0934 77.9498 63.7205 76.3226C65.348 74.6954 65.348 72.0572 63.7205 70.43L46.2805 52.99C44.6534 51.3625 44.6534 48.7246 46.2805 47.0975L63.7055 29.6721C65.3326 28.045 65.3326 25.4066 63.7055 23.7796Z" fill="#0F0F0F"/>
+                      </svg>
+                      
+                  </button>
+                  
+                  <button class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 transition-colors">
+                    <svg width="50" height="50" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M36.2945 76.2204C37.9216 77.8475 40.5599 77.8475 42.187 76.2204L62.5514 55.8363C65.803 52.5813 65.8017 47.3071 62.5485 44.0538L42.172 23.6774C40.5449 22.0502 37.9066 22.0502 36.2795 23.6774C34.652 25.3046 34.652 27.9428 36.2795 29.57L53.7195 47.01C55.3466 48.6375 55.3466 51.2754 53.7195 52.9025L36.2945 70.3279C34.6674 71.955 34.6674 74.5934 36.2945 76.2204Z" fill="#0F0F0F"/>
+                      </svg>
+                      
+                  </button>
+                </div>
+              </div>
+
+          </div>
+        </section>
+
+        <section class="mt-80">
+          <div class="py-4 text-center">
+            <h2 class="font-bold text-50 font-lato">Get In Touch</h2>
+            <h4 class="text-xl leading-[50px] text-[var(--gray-primary)] font-popins">
+              Contact us today to learn more about how we can support your business in selling your scrap at ease and on a reasonable price
+            </h4>
+          </div>
+
+          <div class="flex flex-col md:flex-row items-center gap-10 lg:gap-20 bg-[var(--dark)] px-6 py-10 lg:px-12">
+            <div class="w-full md:w-1/2 lg:w-[30%] flex-shrink-0">
+              <img src="./assets/images/illustrations/Illustration 3.png" alt="">
+            </div>
+
+            <div class="p-[60px] w-full md:w-1/2 lg:w-[70%] bg-white rounded-[30px]">
+                <div class="font-lato font-bold text-[48px] mb-8">Schedule a Call With Our Expert</div>
+                <p class="font-poppins text-4xl">
+                  We invite you to schedule a call with our expert in waste management!!
+                </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
